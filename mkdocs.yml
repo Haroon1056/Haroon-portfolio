@@ -1,0 +1,90 @@
+site_name: Haroon's AI & Machine Learning Portfolio
+# site_url: https://your-portfolio-url.com
+site_author: Haroon Rasheed
+site_description: A professional portfolio showcasing projects and notes in Data Science, Machine Learning, and AI Engineering.
+
+theme:
+  name: material
+  favicon: ./my_portfolio/favicon.png
+  language: en
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: blue
+    - scheme: slate
+      primary: indigo
+      accent: blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.top
+    - toc.integrate
+    - header.autohide
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+    - content.action.view
+    - content.tabs.link
+    - navigation.footer
+  icon:
+    repo: fontawesome/brands/github
+
+repo_url: https://github.com/Haroon1056
+repo_name: GitHub
+
+nav:
+  - Home: index.md
+  - About Me: about.md
+  - Skills: skills.md
+  - Projects: projects.md
+  - Notes:
+      - Data Science: notes/data-science.md
+      - Machine Learning: notes/machine-learning.md
+      - Deep Learning: notes/deep-learning.md
+  - Resume: resume.md
+  - Contact: contact.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.magiclink
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - search
+  # - glightbox
+  # - awesome-pages
+  # - git-revision-date-localized:
+  #     fallback_to_build_date: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Haroon1056
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/haroonrasheed-ai/
+    - icon: fontawesome/solid/envelope
+      link: mailto:haroonrasheed1056@gmail.com.com
+
+extra_css:
+  - stylesheets/extra.css  # Optional: add custom styles here
+
+extra_javascript:
+  - javascripts/extra.js   # Optional: add custom scripts here
