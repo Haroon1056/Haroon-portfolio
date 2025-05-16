@@ -5,7 +5,7 @@ site_description: A professional portfolio showcasing projects and notes in Data
 
 theme:
   name: material
-  favicon: ./my_portfolio/favicon.png
+  # favicon: favicon.png
   language: en
   palette:
     - scheme: default
@@ -83,8 +83,8 @@ extra:
     - icon: fontawesome/solid/envelope
       link: mailto:haroonrasheed1056@gmail.com.com
 
-extra_css:
-  - stylesheets/extra.css  # Optional: add custom styles here
+# extra_css:
+#   - stylesheets/extra.css  # Optional: add custom styles here
 
-extra_javascript:
-  - javascripts/extra.js   # Optional: add custom scripts here
+# extra_javascript:
+#   - javascripts/extra.js   # Optional: add custom scripts here
