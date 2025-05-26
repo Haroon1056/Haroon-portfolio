@@ -84,12 +84,20 @@
       <p><strong>GitHub:</strong> <a href="https://github.com/Haroon1056" target="_blank">github.com/Haroon1056</a></p>
     </div>
 
-    <form action="mailto:haroonrasheed1056@gmail.com" method="post" enctype="text/plain">
+    <form action="https://formspree.io/f/xnndkyqw" method="POST">
       <input type="text" name="name" placeholder="Your Name" required />
       <input type="email" name="email" placeholder="Your Email" required />
       <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+  
+      <!-- Optional: prevent spam -->
+      <input type="hidden" name="_captcha" value="false">
+  
+      <!-- Optional: redirect to thank you page -->
+      <input type="hidden" name="_next" value="https://haroon1056.github.io/Haroon-portfolio/thank-you.html">
+
       <button type="submit">Send Message</button>
     </form>
+
   </div>
 
   <div class="footer">
